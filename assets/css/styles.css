@@ -1,0 +1,231 @@
+header {
+  width: 100%;
+  height: 8rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 15rem;
+  background: var(--linear-green);
+  position: fixed;
+  z-index: 15;
+  box-shadow: 0px 0px 13px #193D4C;
+}
+.searchBar {
+  display: flex;
+  flex-direction: row-reverse;
+  background: var(--linear-white);
+}
+.searchBar input[type="text"] {
+  background-color: transparent;
+  width: 42rem;
+  border: none;
+  font-size: 1.3rem;
+  padding-left: 2rem;
+  font-family: 'Poppins', sans-serif;
+  color: var(--Branco);
+  letter-spacing: .1rem;
+}
+.searchBar input[type="text"]::placeholder {
+  color: var(--Branco);
+  font-family: 'Poppins', sans-serif;
+  font-style: italic;
+  opacity: .6;
+  font-size: 1.3rem;
+}
+.searchBar button[type="submit"] {
+  width: 6rem;
+  height: 3rem;
+  background-color: transparent;
+  border-right: .2rem solid #27576B;
+  border-top: 0;
+  border-bottom: 0;
+  border-left: 0;
+}
+header nav a {
+  text-decoration: none;
+  font-size: 1.4rem;
+}
+header nav a:nth-child(1) {
+  color: var(--Branco);
+  margin-right: 3rem;
+}
+.loginBtn,
+.signupBtn {
+  border-radius: .6rem;
+  font-weight: bold;
+}
+.loginBtn {
+  padding: 1rem 2.5rem;
+  background-color: transparent;
+  color: var(--Branco);
+  border: .2rem solid var(--Branco);
+  margin-right: 3rem;
+}
+.signupBtn {
+  padding: 1rem .2rem;
+  background-color: var(--Branco);
+  border: .2rem solid var(--Branco);
+  color: var(--Verde-claro);
+}
+header nav a:nth-child(3) {
+  background-color: aliceblue;
+}
+main {
+  padding-top: 8rem;
+}
+.bannerInit {
+  background-image: url('../img/background-image.png');
+  width: 100%;
+  height: 50rem;
+  display: flex;
+  align-items: center;
+  padding-left: 15rem;
+  margin-bottom: 8rem;
+}
+.bannerText {
+  font-size: 3.2rem;
+  width: 54rem;
+  font-weight: 700;
+  color: var(--Branco);
+}
+.bannerText::after {
+  content: '<T>ECH';
+  font-style: italic;
+  font-weight: 300;
+  color: var(--Branco);
+}
+.seeCourses {
+  padding: 0 15rem;
+  margin-bottom: 10rem;
+}
+.seeCourses h2 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 2.4rem;
+  color: var(--Verde-escuro);
+}
+.items-col {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;  
+}
+.item {
+  min-height: 27rem;
+  width: fit-content;
+  border: .3rem solid #8EC3D9;
+  margin-top: 6rem;
+}
+.priceLink {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+.priceLink p {
+  text-transform: uppercase;
+  color: var(--Verde-claro);
+  font-weight: 800;
+  font-size: 1.4rem;
+}
+.priceLink a {
+  color: var(--Rosa-escuro);
+  font-size: 1.4rem;
+  font-style: italic;
+}
+.paddingStructure {
+  padding: 1.5rem;
+}
+.paddingStructure h3 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.8rem;
+  width: 21rem;
+  letter-spacing: 2px;
+  margin-bottom: .4rem;
+  color: var(--Verde-escuro);
+}
+.paddingStructure span {
+  color: #949494;
+  font-size: 1.3rem;
+}
+
+/*LOGIN PAGE*/
+.loginPage {
+  height: 100vh;
+  width: 100%;
+  background-color: #193D4C;
+  background-image: url('../img/image-login.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  object-fit: contain;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  justify-content: center;
+  padding-right: 10rem;
+}
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.loginForm h1 {
+  color: var(--Branco);
+  margin-bottom: 5rem;
+}
+.inputLogin {
+  height: 4rem;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  margin-bottom: 5rem;
+  border-bottom: .2rem solid white;
+}
+.inputLogin img {
+  object-fit: contain;
+}
+.inputData {
+  height: 4rem;
+  width: 30.8rem;
+  background-color: transparent;
+  padding-left: 2rem;
+  border: none;
+  font-size: 1.6rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  color: var(--Branco);
+}
+.inputData::placeholder {
+  color: var(--Branco);
+  opacity: .8;
+}
+
+.loginForm button[type="submit"] {
+  padding: 1.1rem 11.7rem;
+  background-color: var(--Rosa);
+  border: none;
+  color: var(--Branco);
+  font-size: 1.8rem;
+  letter-spacing: .2rem;
+  font-weight: 600;
+  margin-bottom: 2.5rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+.copywrite {
+  position: absolute;
+  /* background-color: #ffc; */
+  color: var(--Branco);
+  width: 32.3rem;
+  font-size: 1.2rem;
+  text-align: center;
+  bottom: 1rem;
+  right: 10rem;
+}
+.dontHaveAccount {
+  width: 35rem;
+  text-align: center;
+  font-size: 1.4rem;
+  color: var(--Branco);
+}
+.dontHaveAccount a {
+  color: var(--Rosa);
+}

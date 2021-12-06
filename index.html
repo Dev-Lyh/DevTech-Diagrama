@@ -1,25 +1,90 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="./assets/css/global.css">
+  <link rel="stylesheet" href="./assets/css/styles.css">
+
   <title>DevTech</title>
 </head>
+
 <body>
   <header>
-    <img src="" alt="devtech logo">
+    <img src="./assets/img/devtech-logo.png" alt="devtech logo">
+    <form action="" method="post">
+      <div class="searchBar">
+        <input type="text" placeholder="Qual curso você gostaria de procurar?">
+        <button type="submit"><img src="./assets/img/search-icon.png" alt="search icon"></button>
+      </div>
+    </form>
     <nav>
       <a href="">
-
+        Ver cursos
       </a>
-      <a href="">
-
-      </a>
-      <a href="">
-
-      </a>
+      <a href="./assets/pages/login.html" class="loginBtn">Entrar</a>
+      <a href="./assets/pages/signup.html" class="signupBtn">Cadastre-se</a>
     </nav>
   </header>
+  <main>
+    <section class="bannerInit">
+      <h1 class="bannerText"></h1>
+    </section>
+    <section class="seeCourses">
+      <h2>Veja alguns de nossos cursos</h2>
+      <nav class="items-col">
+        <div class="item">
+          <img src="./assets/img/icone-rosa-verde.png" alt="banner dev tech">
+          <div class="paddingStructure">
+            <h3>Desenvolvimento básico para web</h3>
+            <span>por DevTech</span>
+            <nav class="priceLink">
+              <p class="priceMode">Gratuito</p>
+              <a href="">saber mais</a>
+            </nav>
+          </div>
+        </div>
+        <div class="item">
+          <img src="./assets/img/icone-branco-rosa.png" alt="banner dev tech">
+          <div class="paddingStructure">
+            <h3>Desenvolvimento básico para web</h3>
+            <span>por DevTech</span>
+            <nav class="priceLink">
+              <p class="priceMode">Gratuito</p>
+              <a href="">saber mais</a>
+            </nav>
+          </div>
+        </div>
+        <div class="item">
+          <img src="./assets/img/icone-verde-rosa.png" alt="banner dev tech">
+          <div class="paddingStructure">
+            <h3>Desenvolvimento básico para web</h3>
+            <span>por DevTech</span>
+            <nav class="priceLink">
+              <p class="priceMode">Gratuito</p>
+              <a href="">saber mais</a>
+            </nav>
+          </div>
+        </div>
+        <div class="item">
+          <img src="./assets/img/icone-pb.png" alt="banner dev tech">
+          <div class="paddingStructure">
+            <h3>Desenvolvimento básico para web</h3>
+            <span>por DevTech</span>
+            <nav class="priceLink">
+              <p class="priceMode">Gratuito</p>
+              <a href="">saber mais</a>
+            </nav>
+          </div>
+        </div>
+      </nav>
+    </section>
+  </main>
+
+  <script src="./assets/js/main.js"></script>
 </body>
+
 </html>

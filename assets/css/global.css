@@ -1,6 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Poppins:wght@400;700;800;900&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline-color: #EB4A5F;
+}
+
 :root {
   --Rosa-claro: #FF7D8E;
   --Rosa-escuro: #EB4A5F;
+  --Rosa: #F46175;
   --Branco: #FFFFFF;
   --Verde-escuro: #193D4C;
+  --Verde-claro: #295B6F;
+
+  --linear-pink: linear-gradient(90deg, #EC4B60 0%, #FF7D8E 100%);
+  --linear-green: linear-gradient(270deg, #397D99 0%, #15323E 100%);
+  --linear-green-pink: linear-gradient(90deg, #ED4E63 0%, #163441 37.5%, #377893 67.71%, #FF7C8D 100%);
+  --linear-white: linear-gradient(90deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.1) 43.23%, rgba(255, 255, 255, 0.2) 67.19%, rgba(255, 255, 255, 0.4) 100%);
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Poppins', sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 2rem;
+}
+::-webkit-scrollbar-track {
+  background: #15323E;
+  width: 2rem;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--linear-pink);
+  border-radius: 8rem;
+  border: .5rem solid #15323E;
 }
