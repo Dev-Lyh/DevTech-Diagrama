@@ -8,11 +8,11 @@ header {
   background: var(--linear-green);
   position: fixed;
   z-index: 15;
-  box-shadow: 0px 0px 13px #193D4C;
+  box-shadow: 0px 0px 13px #193d4c;
 }
 .menuBtns,
 .menuBtns.menuClose,
-.menuBtns.menuOpen{
+.menuBtns.menuOpen {
   display: none;
 }
 .searchBar {
@@ -26,22 +26,22 @@ header {
   border: none;
   font-size: 1.3rem;
   padding-left: 2rem;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   color: var(--Branco);
-  letter-spacing: .1rem;
+  letter-spacing: 0.1rem;
 }
 .searchBar input[type="text"]::placeholder {
   color: var(--Branco);
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: italic;
-  opacity: .6;
+  opacity: 0.6;
   font-size: 1.3rem;
 }
 .searchBar button[type="submit"] {
   width: 6rem;
   height: 3rem;
   background-color: transparent;
-  border-right: .2rem solid #27576B;
+  border-right: 0.2rem solid #27576b;
   border-top: 0;
   border-bottom: 0;
   border-left: 0;
@@ -56,20 +56,20 @@ header nav a:nth-child(1) {
 }
 .loginBtn,
 .signupBtn {
-  border-radius: .6rem;
+  border-radius: 0.6rem;
   font-weight: bold;
 }
 .loginBtn {
   padding: 1rem 2.5rem;
   background-color: transparent;
   color: var(--Branco);
-  border: .2rem solid var(--Branco);
+  border: 0.2rem solid var(--Branco);
   margin-right: 3rem;
 }
 .signupBtn {
-  padding: 1rem .2rem;
+  padding: 1rem 0.2rem;
   background-color: var(--Branco);
-  border: .2rem solid var(--Branco);
+  border: 0.2rem solid var(--Branco);
   color: var(--Verde-claro);
 }
 header nav a:nth-child(3) {
@@ -79,7 +79,7 @@ main {
   padding-top: 8rem;
 }
 .bannerInit {
-  background-image: url('../img/background-image.png');
+  background-image: url("../img/background-image.png");
   width: 100%;
   height: 50rem;
   display: flex;
@@ -94,7 +94,7 @@ main {
   color: var(--Branco);
 }
 .bannerText::after {
-  content: '<T>ECH';
+  content: "<T>ECH";
   font-style: italic;
   font-weight: 300;
   color: var(--Branco);
@@ -104,7 +104,7 @@ main {
   margin-bottom: 10rem;
 }
 .seeCourses h2 {
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   font-size: 2.4rem;
   color: var(--Verde-escuro);
 }
@@ -112,12 +112,12 @@ main {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  flex-wrap: wrap;  
+  flex-wrap: wrap;
 }
 .item {
   min-height: 27rem;
   width: fit-content;
-  border: .3rem solid #8EC3D9;
+  border: 0.3rem solid #8ec3d9;
   margin-top: 6rem;
 }
 .priceLink {
@@ -140,11 +140,11 @@ main {
   padding: 1.5rem;
 }
 .paddingStructure h3 {
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   font-size: 1.8rem;
   width: 21rem;
   letter-spacing: 2px;
-  margin-bottom: .4rem;
+  margin-bottom: 0.4rem;
   color: var(--Verde-escuro);
 }
 .paddingStructure span {
@@ -156,8 +156,8 @@ main {
 .loginPage {
   height: 100vh;
   width: 100%;
-  background-color: #193D4C;
-  background-image: url('../img/image-login.png');
+  background-color: #193d4c;
+  background-image: url("../img/image-login.png");
   background-repeat: no-repeat;
   background-size: contain;
   object-fit: contain;
@@ -182,7 +182,7 @@ main {
   display: flex;
   align-items: center;
   margin-bottom: 5rem;
-  border-bottom: .2rem solid white;
+  border-bottom: 0.2rem solid white;
   background-color: var(--Verde-escuro);
 }
 .loginPage .inputLogin img {
@@ -195,13 +195,13 @@ main {
   padding-left: 2rem;
   border: none;
   font-size: 1.6rem;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 500;
   color: var(--Branco);
 }
 .loginPage .inputData::placeholder {
   color: var(--Branco);
-  opacity: .8;
+  opacity: 0.8;
 }
 
 .loginPage .loginForm button[type="submit"] {
@@ -210,10 +210,10 @@ main {
   border: none;
   color: var(--Branco);
   font-size: 1.8rem;
-  letter-spacing: .2rem;
+  letter-spacing: 0.2rem;
   font-weight: 600;
   margin-bottom: 2.5rem;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .loginPage .copywrite {
@@ -240,7 +240,7 @@ main {
   height: 100vh;
   width: 100%;
   background-color: #f5f5f5;
-  background-image: url('../img/image-signup.png');
+  background-image: url("../img/image-signup.png");
   background-repeat: no-repeat;
   background-size: contain;
   object-fit: contain;
@@ -265,7 +265,7 @@ main {
   display: flex;
   align-items: center;
   margin-bottom: 5rem;
-  border-bottom: .2rem solid var(--Rosa);
+  border-bottom: 0.2rem solid var(--Rosa);
 }
 .signupPage .inputSignup img {
   object-fit: contain;
@@ -277,13 +277,13 @@ main {
   padding-left: 2rem;
   border: none;
   font-size: 1.6rem;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 500;
   color: var(--Rosa);
 }
 .signupPage .inputData::placeholder {
   color: var(--Rosa);
-  opacity: .8;
+  opacity: 0.8;
 }
 
 .signupPage .signupForm button[type="submit"] {
@@ -292,10 +292,10 @@ main {
   border: none;
   color: var(--Branco);
   font-size: 1.8rem;
-  letter-spacing: .2rem;
+  letter-spacing: 0.2rem;
   font-weight: 600;
   margin-bottom: 2.5rem;
-  font-family: 'Poppins', sans-serif; 
+  font-family: "Poppins", sans-serif;
 }
 
 .signupPage .copywrite {
@@ -321,14 +321,14 @@ main {
 
 @media screen and (max-width: 1330px) {
   .loginPage {
-    background-image: url('../img/image-login-850px.png');
+    background-image: url("../img/image-login-850px.png");
     background-position: left bottom;
   }
 }
 @media screen and (max-width: 1000px) {
   .loginPage {
-    background-image: url('');
-    background: #15323E;
+    background-image: url("");
+    background: #15323e;
     padding-right: 0;
     align-items: center;
   }
@@ -347,7 +347,7 @@ main {
     display: flex;
     align-items: center;
     margin-bottom: 5rem;
-    border-bottom: .2rem solid white;
+    border-bottom: 0.2rem solid white;
     background-color: var(--Verde-escuro);
   }
   .loginPage .loginForm {
@@ -358,30 +358,70 @@ main {
   }
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 1150px) {
   header {
     padding: 0 5rem;
   }
-  .searchBar {
+  .searchBar input[type="text"] {
+    width: 32rem;
+  }
+}
+@media screen and (max-width: 916px) {
+  .searchBar input[type="text"] {
+    width: 20rem;
+  }
+}
+@media screen and (max-width: 830px) {
+  header {
+    padding: 0 5rem;
+  }
+  .searchForm.active {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    top: 8rem;
+    right: 0;
+    background: var(--linear-green);
+    display: flex;
+    padding: 8rem 0;
+    justify-content: center;
+  }
+  .searchForm .searchBar input[type="text"] {
+    display: none;
+  }
+  .searchForm.active .searchBar {
+    height: 6rem;
+    width: 80%;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .searchForm.active .searchBar input[type="text"] {
+    display: flex;
+    height: 6rem;
+    width: 80%;
+  }
+  .searchForm.active .searchBar button[type="submit"] {
+    width: 6rem;
+    height: 6rem;
+    background-color: var(--Rosa);
+    border: none;
+  }
+  .searchForm .searchBar {
     background: transparent;
   }
-  .searchBar input[type="text"] {
-    background-color: transparent;
-    display: none;
-}
-.searchBar button[type="submit"] {
-  width: 6rem;
-  height: 6rem;
-  background-color: transparent;
-  border: none;
-}
-.searchBar button[type="submit"] img {
-  width: 4rem;
-  height: 4rem;
-  object-fit: contain;
-}
+  .searchForm .searchBar button[type="submit"] {
+    width: 6rem;
+    height: 6rem;
+    background: transparent;
+    border: none;
+  }
+  .searchBar button[type="submit"] img {
+    width: 4rem;
+    height: 4rem;
+    object-fit: contain;
+  }
   .bannerInit {
-    background-image: url('../img/waves-bg.png');
+    background-image: url("../img/waves-bg.png");
     background-color: var(--Rosa);
   }
   .bannerInit {
@@ -391,10 +431,21 @@ main {
   .bannerText {
     text-align: center;
   }
-  .seeCourses {
-    padding: 0 5rem;
-    margin-bottom: 10rem;
+    .seeCourses {
+      margin-bottom: 10rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 100%;
   }
+  .seeCourses h2 {
+    width: 100%;
+    font-size: 2.8rem;
+    text-align: center;
+}
+  .items-col {
+    justify-content: center;
+}
   .menuBtns.menuOpen {
     display: block;
   }
