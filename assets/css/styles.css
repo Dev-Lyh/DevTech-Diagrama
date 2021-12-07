@@ -10,6 +10,11 @@ header {
   z-index: 15;
   box-shadow: 0px 0px 13px #193D4C;
 }
+.menuBtns,
+.menuBtns.menuClose,
+.menuBtns.menuOpen{
+  display: none;
+}
 .searchBar {
   display: flex;
   flex-direction: row-reverse;
@@ -178,6 +183,7 @@ main {
   align-items: center;
   margin-bottom: 5rem;
   border-bottom: .2rem solid white;
+  background-color: var(--Verde-escuro);
 }
 .loginPage .inputLogin img {
   object-fit: contain;
@@ -212,7 +218,6 @@ main {
 
 .loginPage .copywrite {
   position: absolute;
-  /* background-color: #ffc; */
   color: var(--Branco);
   width: 32.3rem;
   font-size: 1.2rem;
@@ -268,7 +273,7 @@ main {
 .signupPage .inputData {
   height: 4rem;
   width: 30.8rem;
-  background-color: transparent;
+  background-color: #f5f5f5;
   padding-left: 2rem;
   border: none;
   font-size: 1.6rem;
@@ -312,4 +317,112 @@ main {
 }
 .signupPage .alreadyHaveAccount a {
   color: var(--Verde-claro);
+}
+
+@media screen and (max-width: 1330px) {
+  .loginPage {
+    background-image: url('../img/image-login-850px.png');
+    background-position: left bottom;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .loginPage {
+    background-image: url('');
+    background: #15323E;
+    padding-right: 0;
+    align-items: center;
+  }
+  .loginPage .copywrite {
+    position: absolute;
+    color: var(--Branco);
+    width: 100%;
+    font-size: 1.2rem;
+    text-align: center;
+    bottom: 5rem;
+    right: 0;
+  }
+  .loginPage .inputLogin {
+    height: 5rem;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 5rem;
+    border-bottom: .2rem solid white;
+    background-color: var(--Verde-escuro);
+  }
+  .loginPage .loginForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  header {
+    padding: 0 5rem;
+  }
+  .searchBar {
+    background: transparent;
+  }
+  .searchBar input[type="text"] {
+    background-color: transparent;
+    display: none;
+}
+.searchBar button[type="submit"] {
+  width: 6rem;
+  height: 6rem;
+  background-color: transparent;
+  border: none;
+}
+.searchBar button[type="submit"] img {
+  width: 4rem;
+  height: 4rem;
+  object-fit: contain;
+}
+  .bannerInit {
+    background-image: url('../img/waves-bg.png');
+    background-color: var(--Rosa);
+  }
+  .bannerInit {
+    padding: 0;
+    justify-content: center;
+  }
+  .bannerText {
+    text-align: center;
+  }
+  .seeCourses {
+    padding: 0 5rem;
+    margin-bottom: 10rem;
+  }
+  .menuBtns.menuOpen {
+    display: block;
+  }
+  .menuBtns.menuClose {
+    display: none;
+  }
+  .navBar {
+    display: none;
+  }
+  .navBar.active {
+    position: fixed;
+    top: 8rem;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background: var(--linear-green);
+    text-align: center;
+  }
+  .navBar.active a {
+    font-size: 2rem;
+    text-align: center;
+    margin-right: 0;
+  }
+  .navBar.active a:nth-child(2) {
+    margin: 6rem 0;
+  }
 }
