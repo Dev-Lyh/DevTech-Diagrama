@@ -1,11 +1,2 @@
-var bannerText = document.querySelector('.bannerText')
-let userpass = document.getElementById('userPass')
-let visibleToggle = document.getElementById('visible')
-
+const bannerText = document.querySelector('.bannerText')
 bannerText.innerHTML = `Aprenda e se desenvolva através da DEV`
-
-function toggleView (e) {
-  if(visibleToggle == true) {
-    userpass.type = "text"
-  }
-}
